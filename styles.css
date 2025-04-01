@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(240, 146, 211);
+}
+.myPet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #4e3c4c;
+  padding-top: 15px;
+  font-size: 22px;
+  text-decoration: underline;
+}
+.myPet img {
+  width: 250px;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid #4e3c4c;
+  border-radius: 15px;
+}
+.myPet p {
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  margin-top: 15px;
+}
